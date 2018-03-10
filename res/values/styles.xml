@@ -12,6 +12,7 @@
         <item name="alertDialogStyle">@style/AppTheme.AlertDialogStyle</item>
         <item name="android:windowLightStatusBar">@bool/theme_is_light</item>
         <item name="android:windowLightNavigationBar">@bool/theme_is_light</item>
+        <item name="android:windowBackground">@color/update_background</item>
     </style>
 
     <style name="AppTheme.NoActionBar">
