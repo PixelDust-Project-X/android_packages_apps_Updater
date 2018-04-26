@@ -36,7 +36,7 @@
                 android:paddingEnd="46dp"
                 android:paddingBottom="5dp"
                 android:text="@string/list_no_updates"
-                android:textColor="?android:textColorSecondary" />
+                android:textColor="@*android:color/accent_device_default_light" />
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/recycler_view"
