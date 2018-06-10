@@ -10,8 +10,8 @@
         <item name="android:textColorPrimary">@color/text_primary</item>
         <item name="android:textColorSecondary">@color/text_secondary</item>
         <item name="alertDialogStyle">@style/AppTheme.AlertDialogStyle</item>
-        <item name="android:windowLightStatusBar">@bool/theme_is_light</item>
-        <item name="android:windowLightNavigationBar">@bool/theme_is_light</item>
+        <item name="android:navigationBarColor">@color/navigation_bar_color</item>
+        <item name="android:windowLightNavigationBar">@bool/windowLightNavigationBar</item>
         <item name="android:windowBackground">@color/update_background</item>
     </style>
 
@@ -20,7 +20,8 @@
         <item name="windowNoTitle">true</item>
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
-        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/navigation_bar_color</item>
+        <item name="android:windowLightNavigationBar">@bool/windowLightNavigationBar</item>
         <item name="android:windowBackground">@color/update_background</item>
     </style>
 
