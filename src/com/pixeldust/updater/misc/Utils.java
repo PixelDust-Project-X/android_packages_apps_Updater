@@ -86,7 +86,7 @@ public class Utils {
         Update update = new Update();
         update.setTimestamp(object.getLong("datetime"));
         update.setName(object.getString("filename"));
-        update.setDownloadId(object.getString("id"));
+        update.setDownloadId(object.getString("filehash")); // Use md5 as download ID
         update.setType(object.getString("romtype"));
         update.setFileSize(object.getLong("size"));
         update.setDownloadUrl(object.getString("url"));
