@@ -21,7 +21,6 @@ import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.PowerManager;
 import android.os.SystemClock;
-import android.support.v4.content.LocalBroadcastManager;
 import android.util.Log;
 
 import com.pixeldust.updater.UpdatesDbHelper;
@@ -30,6 +29,8 @@ import com.pixeldust.updater.misc.Utils;
 import com.pixeldust.updater.model.Update;
 import com.pixeldust.updater.model.UpdateInfo;
 import com.pixeldust.updater.model.UpdateStatus;
+
+import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
 import java.io.File;
 import java.io.IOException;

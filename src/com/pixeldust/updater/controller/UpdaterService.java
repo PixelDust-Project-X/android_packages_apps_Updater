@@ -26,8 +26,6 @@ import android.content.IntentFilter;
 import android.os.Binder;
 import android.os.Bundle;
 import android.os.IBinder;
-import android.support.v4.app.NotificationCompat;
-import android.support.v4.content.LocalBroadcastManager;
 import android.util.Log;
 
 import com.pixeldust.updater.R;
@@ -37,6 +35,9 @@ import com.pixeldust.updater.misc.StringGenerator;
 import com.pixeldust.updater.misc.Utils;
 import com.pixeldust.updater.model.UpdateInfo;
 import com.pixeldust.updater.model.UpdateStatus;
+
+import androidx.core.app.NotificationCompat;
+import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
 import java.io.IOException;
 import java.text.NumberFormat;

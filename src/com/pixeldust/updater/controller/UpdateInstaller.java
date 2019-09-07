@@ -20,7 +20,6 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.SystemClock;
 import android.os.SystemProperties;
-import android.support.v7.preference.PreferenceManager;
 import android.util.Log;
 
 import com.pixeldust.updater.misc.Constants;
@@ -28,6 +27,8 @@ import com.pixeldust.updater.misc.FileUtils;
 import com.pixeldust.updater.misc.Utils;
 import com.pixeldust.updater.model.UpdateInfo;
 import com.pixeldust.updater.model.UpdateStatus;
+
+import androidx.preference.PreferenceManager;
 
 import java.io.File;
 import java.io.IOException;
