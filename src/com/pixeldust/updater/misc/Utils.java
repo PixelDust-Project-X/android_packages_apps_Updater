@@ -89,13 +89,13 @@ public class Utils {
         update.setDownloadId(object.getString("filehash")); // Use md5 as download ID
         update.setFileSize(object.getLong("size"));
         update.setDownloadUrl(object.getString("url"));
-        update.setVersion(object.getString("version"));
+        update.setVersion(object.getString("datetime"));
         return update;
     }
 
     public static boolean isCompatible(UpdateBaseInfo update) {
-        if (update.getVersion().compareTo(SystemProperties.get(Constants.PROP_BUILD_VERSION)) < 0) {
-            Log.d(TAG, update.getName() + " is older than current Android version");
+        if (update.getVersion().compareTo(SystemProperties.get(Constants.PROP_BUILD_TIMESTAMP)) < 0) {
+            Log.d(TAG, update.getName() + " is older than current PixelDust version");
             return false;
         }
         if (!SystemProperties.getBoolean(Constants.PROP_UPDATER_ALLOW_DOWNGRADING, false) &&
