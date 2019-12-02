@@ -104,6 +104,7 @@
     <string name="action_info">Info</string>
     <string name="action_delete">Delete</string>
     <string name="action_cancel">Cancel</string>
+    <string name="details_button">View details</string>
 
     <string name="confirm_delete_dialog_title">Delete file</string>
     <string name="confirm_delete_dialog_message">Delete the selected update file?</string>
@@ -135,6 +136,8 @@
         <item quantity="other"><xliff:g id="count">%d</xliff:g> hours left</item>
     </plurals>
 
+
+    <string name="update_found_notification">New update available</string>
     <string name="update_on_mobile_data_title">Warning</string>
     <string name="update_on_mobile_data_message">You\'re about to download an update package using mobile data which is likely going to cause high data usage. Would you like to proceed?</string>
     <string name="checkbox_mobile_data_warning">Do not show again</string>
